@@ -59,12 +59,6 @@ Bien que j'utilise activement les IA génératives pour accélérer mon dévelop
 ### 📈 Mes Statistiques GitHub
 
 <div align="center">
-  <img height="195" src="https://github-readme-stats.vercel.app/api?username=NewGamer62&show_icons=true&theme=radical&hide_border=true" />
-  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NewGamer62&layout=compact&theme=radical&hide_border=true" />
-</div>
-
-<br/>
-
-<div align="center">
-  <i>"Je ne connais peut-être pas la syntaxe exacte par cœur, mais je sais comment l'architecture doit être construite."</i>
+  <img src="https://github-readme-stats.vercel.app/api?username=NewGamer62&show_icons=true&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NewGamer62&layout=compact&theme=radical&hide_border=true" />
 </div>
