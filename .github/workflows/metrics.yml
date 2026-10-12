@@ -1,0 +1,39 @@
+name: Metrics
+on:
+  # Mise à jour quotidienne automatique à minuit
+  schedule:
+    - cron: "0 0 * * *"
+  # Permet d'exécuter l'action manuellement depuis l'onglet Actions sur GitHub
+  workflow_dispatch:
+  push:
+    branches: ["main", "master"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Utilise le secret METRICS_TOKEN si configuré, sinon le GITHUB_TOKEN par défaut
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+
+          user: NewGamer62
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Paris
+          
+          # Plugin Langages les plus utilisés
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 6
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          repositories_batch: 100
