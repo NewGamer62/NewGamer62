@@ -129,13 +129,12 @@
 
 ---
 
-### 📈 Mes Statistiques & Activité GitHub
+### 📈 Mes Statistiques GitHub
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NewGamer62&show_icons=true&theme=radical&rank_icon=github" alt="Statistiques GitHub de NewGamer62" height="185" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NewGamer62&layout=compact&theme=radical&langs_count=8" alt="Top Langages de NewGamer62" height="185" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=NewGamer62&theme=radical" alt="GitHub Streak de NewGamer62" height="185" />
-</p>
+<div align="center">
+  <a href="https://github.com/NewGamer62" target="_blank" rel="noopener noreferrer">
+    <img src="github-metrics.svg" alt="Métriques GitHub de NewGamer62" />
+  </a>
+</div>
+
 
