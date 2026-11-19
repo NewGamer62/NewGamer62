@@ -1,9 +1,9 @@
 <h1 align="center">Salut 👋, je suis Noa (NewGamer62)</h1>
 
-<h3 align="center">Étudiant en BUT 3 Informatique | Concepteur Développeur Fullstack & Backend | Persistance Polyglotte & Intégration IA</h3>
+<h3 align="center">Étudiant en BUT 3 Informatique | Concepteur Développeur Fullstack & Backend | Persistance Polyglotte & Écosystème Agentic IA</h3>
 
 <p align="center">
-  Passionné par l'ingénierie logicielle, les architectures scalables et l'automatisation, je conçois des systèmes robustes alliant <strong>développement backend moderne</strong> (C# .NET 10, Python, TypeScript), <strong>persistance polyglotte</strong> (PostgreSQL, MongoDB, Redis, Neo4j) et <strong>intégration d'IA souveraine locale</strong> (Ollama / LLMs).
+  Passionné par l'ingénierie logicielle, les architectures scalables et l'outillage de précision, je conçois des systèmes robustes alliant <strong>développement backend moderne & outillage CLI</strong> (C# .NET 10, Go, Python, TypeScript), <strong>persistance polyglotte</strong> (PostgreSQL, MongoDB, Redis, Neo4j) et <strong>ingénierie d'agents IA</strong> (Model Context Protocol - MCP, LLMs souverains locaux).
 </p>
 
 <p align="center">
@@ -34,6 +34,7 @@
     <td width="25%"><strong>Backend & Langages</strong></td>
     <td>
       <img src="https://img.shields.io/badge/C%23_.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 10" />
+      <img src="https://img.shields.io/badge/Go_(Golang)-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
       <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
@@ -64,9 +65,11 @@
     </td>
   </tr>
   <tr>
-    <td><strong>IA & Pipelines</strong></td>
+    <td><strong>IA, Agents & Protocoles</strong></td>
     <td>
+      <img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-000000?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
       <img src="https://img.shields.io/badge/Ollama_(LLMs_Locaux)-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+      <img src="https://img.shields.io/badge/Zod_(Validation)-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod" />
       <img src="https://img.shields.io/badge/Text--to--SQL-2563EB?style=flat-square&logo=databricks&logoColor=white" alt="Text-to-SQL" />
       <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
       <img src="https://img.shields.io/badge/OpenAI_Whisper-412991?style=flat-square&logo=openai&logoColor=white" alt="Whisper" />
@@ -96,7 +99,13 @@
 - **Neo4j** : Graphe social, cercles d'amis et moteur de recommandation Cypher.
 - `Stack :` `.NET 10` • `C# 13` • `PostgreSQL` • `MongoDB` • `Redis` • `Neo4j` • `Docker`
 
-#### 2. [NaturSQL](https://github.com/ChtiAxel/appli_intelligente) — Assistant IA Text-to-SQL Sécurisé & Souverain
+#### 2. [Repo-Doctor](https://github.com/NewGamer62/repo-doctor) — Auditeur CLI d'Hygiène & Santé Git en Go
+> Utilitaire CLI haute performance développé en **Go pur**, capable de diagnostiquer l'état de santé, la propreté et la sécurité de n'importe quel dépôt Git local en moins de 50 ms.  
+- **Diagnostic en 5 Piliers Pondérés :** Détection de secrets à haute entropie (tokens AWS, GitHub PAT `ghp_`, clés SSH), intégrité du working tree/stashes, conformité *Conventional Commits*, détection de bloat de stockage et branches locales orphelines.
+- **Porte de Qualité CI/CD :** Score de santé global sur 100 avec grade (A+ à F), suggestions de remédiation directes et code de sortie strict pour pipeline d'intégration continue.
+- `Stack :` `Go (Golang)` • `Git Plumbing/Porcelain` • `DevOps` • `Sécurité Statique` • `CLI Tooling`
+
+#### 3. [NaturSQL](https://github.com/ChtiAxel/appli_intelligente) — Assistant IA Text-to-SQL Sécurisé & Souverain
 > Traduction de requêtes en langage naturel vers du SQL pour interroger une base relationnelle pédagogique MariaDB complexe sans fuite de données.  
 - **Architecture Souveraine :** Traitement 100% en local strict via **Ollama** (aucun transit vers une API cloud tierce).
 - **Sécurité & Bac à sable :** Analyseur syntaxique anti-injection, limitation automatique (`LIMIT 50`), compte lecture seule isolé et timeout de 3s.
@@ -104,28 +113,24 @@
 - `Rôle :` Co-concepteur principal, architecte sécurité/RGPD, suite de 203 tests unitaires et adversariaux.  
 - `Liens :` 📖 **[Documentation officielle en ligne](https://chtiaxel.github.io/appli_intelligente/)** | 💻 **[Dépôt GitHub](https://github.com/ChtiAxel/appli_intelligente)**
 
-#### 3. [HeatTrainer](https://github.com/NewGamer62/HeatTrainer) — Application Mobile & Heatmap Anatomique
+#### 4. [Noa-Cockpit-MCP](https://github.com/NewGamer62/noa-cockpit-mcp) — Serveur Model Context Protocol Modulaire
+> Serveur local haute performance implémentant le standard ouvert **Model Context Protocol (MCP)** en transport `stdio`, connectant les agents d'intelligence artificielle à l'environnement de développement et au second cerveau.  
+- **11 Outils Typés Zod :** Encapsulation sandboxée d'Obsidian (Journal, Backlog, Notes), inspection et libération sécurisée de ports réseau zombies (Windows taskkill protégé), pont d'audit Git avec Repo-Doctor et gardes-fous anti-fuite PII.
+- **Architecture Résiliente :** Validation d'entrées temps réel, séparation stricte des flux JSON-RPC (`stdout`) et de diagnostic (`stderr`), communication IPC sans latence réseau.
+- `Stack :` `TypeScript` • `Node.js` • `Model Context Protocol (MCP)` • `Zod` • `IPC stdio`
+
+#### 5. [HeatTrainer](https://github.com/NewGamer62/HeatTrainer) — Application Mobile & Heatmap Anatomique
 > Application mobile intelligente de musculation calculant la fatigue musculaire résiduelle sur une fenêtre glissante de 72h.  
 - Heatmap anatomique vectorielle face/dos en SVG dynamique (`react-native-svg`).
 - Authentification JWT, base de données cloud PostgreSQL (Neon.tech) et ORM Prisma.
 - Internationalisation complète FR/EN et système d'achievements gamifié.
 - `Stack :` `React Native (Expo)` • `TypeScript` • `Node.js` • `Prisma` • `PostgreSQL` • `Jest`
 
-#### 4. [CV-as-Code](https://github.com/NewGamer62/CV-as-Code) — Chaîne CI/CD & Typographie Automatisée
+#### 6. [CV-as-Code](https://github.com/NewGamer62/CV-as-Code) — Chaîne CI/CD & Typographie Automatisée
 > Infrastructure de génération automatique de CV optimisés ATS (Applicant Tracking System) bilingues (FR / EN).  
-- Single Source of Truth en YAML compilé via un moteur Python vers **Typst** (rendu typographique sub-millimétrique).
-- Pipeline CI/CD GitHub Actions déclenchant la recompilation, les tests de conformité et la publication des artéfacts PDF à chaque tag/commit.
+- Single Source of Truth en YAML compilé via un moteur Python vers **Typst** (rendu typographique vectoriel sub-millimétrique).
+- Pipeline CI/CD GitHub Actions déclenchant la recompilation, les tests de conformité ATS et la publication des artéfacts PDF à chaque commit/tag.
 - `Stack :` `Typst` • `Python` • `YAML` • `GitHub Actions`
-
-#### 5. [Project206 SaaS](https://github.com/NewGamer62/Project206Saas) — Plateforme Commerciale de Montage Vidéo IA *(Projet privé)*
-> SaaS monorepo complet d'automatisation de contenus vidéo verticaux (9:16) pour TikTok, YouTube Shorts et Instagram Reels.  
-- Architecture Monorepo : Frontend Next.js 14, worker Node.js asynchrone, composition FFmpeg et génération vocale ElevenLabs/Whisper.
-- Facturation récurrente et gestion de crédits d'abonnements via Stripe Webhooks.
-- `Stack :` `Next.js 14` • `Node.js` • `FFmpeg` • `Stripe` • `Docker`
-
-#### 6. [Alto Messenger](https://github.com/NewGamer62/alto-messenger) — Messagerie Mobile Chiffrée de Bout en Bout
-> Application mobile de messagerie sécurisée intégrant un chiffrement asymétrique RSA complet avec appairage hors-bande par QR code.  
-- `Stack :` `Flutter` • `Dart` • `Chiffrement RSA` • `WebSockets`
 
 ---
 
