@@ -1,13 +1,13 @@
-<h1 align="center">Salut 👋, je suis Noa (NewGamer62)</h1>
+<h1 align="center">Noa (NewGamer62)</h1>
 
-<h3 align="center">Étudiant en BUT 3 Informatique | Concepteur Développeur Fullstack & Backend | Persistance Polyglotte & Écosystème Agentic IA</h3>
+<h3 align="center">Étudiant en BUT 3 Informatique | Concepteur Développeur Fullstack & Backend | Persistance Polyglotte & Intégration d'Agents IA</h3>
 
 <p align="center">
-  Passionné par l'ingénierie logicielle, les architectures scalables et l'outillage de précision, je conçois des systèmes robustes alliant <strong>développement backend moderne & outillage CLI</strong> (C# .NET 10, Go, Python, TypeScript), <strong>persistance polyglotte</strong> (PostgreSQL, MongoDB, Redis, Neo4j) et <strong>ingénierie d'agents IA</strong> (Model Context Protocol - MCP, LLMs souverains locaux).
+  Développeur axé sur le <strong>backend moderne et l'outillage CLI</strong> (C# .NET 10, Go, Python, TypeScript), la <strong>persistance polyglotte</strong> (PostgreSQL, MongoDB, Redis, Neo4j) et les <strong>protocoles d'agents IA</strong> (Model Context Protocol - MCP, modèles locaux souverains).
 </p>
 
 <p align="center">
-  🎯 <strong>À la recherche d'un stage de fin d'études conventionné de 14 à 16 semaines</strong> à partir du <strong>1er mars 2027</strong> (ouvert aux opportunités de poursuite en CDI ou alternance Master).
+  <strong>Recherche de stage de fin d'études (14 à 16 semaines)</strong> dès le <strong>1er mars 2027</strong> (ouvert à une suite en CDI ou alternance Master).
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 ---
 
-### 🛠️ Stack Technique & Compétences Clés
+### Stack Technique
 
 <table>
   <tr>
@@ -89,57 +89,55 @@
 
 ---
 
-### 🚀 Projets Clés & Vitrine Portfolio
+### Projets Sélectionnés
 
-#### 1. [PixelHub](https://github.com/NewGamer62/pixelHub) — Architecture Polyglotte Multi-Bases & Gaming API
-> **Persistance polyglotte** orchestrant 4 moteurs spécialisés sous **.NET 10 (C# 13)** et Docker Compose.  
-- **PostgreSQL** : Modèle relationnel ACID strict pour les comptes, authentification et transactions financières.
-- **MongoDB** : Catalogue de jeux vidéo polymorphe, indexation avancée (`explain`) et pipelines d'agrégation (`$group`).
-- **Redis** : Mise en cache haute performance (*Cache-Aside Pattern* via Decorator), leaderboards temps réel (`Sorted Set` $O(\log N)$), gestion de présence et files de matchmaking.
-- **Neo4j** : Graphe social, cercles d'amis et moteur de recommandation Cypher.
+#### 1. [PixelHub](https://github.com/NewGamer62/pixelHub) - Architecture Polyglotte Multi-Bases & Gaming API
+> Architecture multi-bases orchestrant 4 moteurs sous **.NET 10 (C# 13)** et Docker Compose.  
+- **PostgreSQL** : Modèle relationnel pour les comptes, authentification et transactions financières.
+- **MongoDB** : Catalogue polymorphe avec indexation avancée (`explain`) et agrégations (`$group`).
+- **Redis** : Cache-Aside, leaderboards temps réel (`Sorted Set` $O(\log N)$) et gestion des sessions.
+- **Neo4j** : Graphe social, relations d'amis et requêtes Cypher.
 - `Stack :` `.NET 10` • `C# 13` • `PostgreSQL` • `MongoDB` • `Redis` • `Neo4j` • `Docker`
 
-#### 2. [Repo-Doctor](https://github.com/NewGamer62/repo-doctor) — Auditeur CLI d'Hygiène & Santé Git en Go
-> Utilitaire CLI haute performance développé en **Go pur**, capable de diagnostiquer l'état de santé, la propreté et la sécurité de n'importe quel dépôt Git local en moins de 50 ms.  
-- **Diagnostic en 5 Piliers Pondérés :** Détection de secrets à haute entropie (tokens AWS, GitHub PAT `ghp_`, clés SSH), intégrité du working tree/stashes, conformité *Conventional Commits*, détection de bloat de stockage et branches locales orphelines.
-- **Porte de Qualité CI/CD :** Score de santé global sur 100 avec grade (A+ à F), suggestions de remédiation directes et code de sortie strict pour pipeline d'intégration continue.
+#### 2. [Repo-Doctor](https://github.com/NewGamer62/repo-doctor) - Auditeur CLI d'Hygiène & Santé Git en Go
+> Outil CLI développé en **Go pur** pour auditer l'état, l'hygiène et la sécurité de dépôts Git locaux en moins de 50 ms.  
+- **Analyse en 5 axes :** Détection de secrets à haute entropie (tokens AWS, GitHub PAT `ghp_`, clés SSH), intégrité du working tree et stashes, conformité Conventional Commits, repérage des fichiers lourds et branches orphelines.
+- **Intégration CI/CD :** Score global sur 100 avec grade (A+ à F), commandes de remédiation directes et code de sortie strict pour quality gates.
 - `Stack :` `Go (Golang)` • `Git Plumbing/Porcelain` • `DevOps` • `Sécurité Statique` • `CLI Tooling`
 
-#### 3. [NaturSQL](https://github.com/ChtiAxel/appli_intelligente) — Assistant IA Text-to-SQL Sécurisé & Souverain
-> Traduction de requêtes en langage naturel vers du SQL pour interroger une base relationnelle pédagogique MariaDB complexe sans fuite de données.  
-- **Architecture Souveraine :** Traitement 100% en local strict via **Ollama** (aucun transit vers une API cloud tierce).
-- **Sécurité & Bac à sable :** Analyseur syntaxique anti-injection, limitation automatique (`LIMIT 50`), compte lecture seule isolé et timeout de 3s.
-- **Conformité RGPD Intégrale :** Consentement tracé en base, export de données Art. 20 (JSON) et registre Art. 30.
-- `Rôle :` Co-concepteur principal, architecte sécurité/RGPD, suite de 203 tests unitaires et adversariaux.  
-- `Liens :` 📖 **[Documentation officielle en ligne](https://chtiaxel.github.io/appli_intelligente/)** | 💻 **[Dépôt GitHub](https://github.com/ChtiAxel/appli_intelligente)**
+#### 3. [NaturSQL](https://github.com/ChtiAxel/appli_intelligente) - Assistant IA Text-to-SQL Sécurisé & Souverain
+> Traduction de requêtes en langage naturel vers du SQL pour interroger une base relationnelle MariaDB sans fuite de données.  
+- **Exécution locale :** Traitement en local strict via **Ollama**, sans dépendance cloud tierce.
+- **Sécurité et sandbox :** Analyseur syntaxique anti-injection, limitation automatique (`LIMIT 50`), compte lecture seule et timeout de 3s.
+- **Conformité RGPD :** Consentement en base, export de données Art. 20 (JSON) et registre des traitements Art. 30.
+- `Rôle :` Co-concepteur principal, architecture sécurité/RGPD, suite de 203 tests unitaires et adversariaux.  
+- `Liens :` [Documentation en ligne](https://chtiaxel.github.io/appli_intelligente/) | [Dépôt GitHub](https://github.com/ChtiAxel/appli_intelligente)
 
-#### 4. [Noa-Cockpit-MCP](https://github.com/NewGamer62/noa-cockpit-mcp) — Serveur Model Context Protocol Modulaire
-> Serveur local haute performance implémentant le standard ouvert **Model Context Protocol (MCP)** en transport `stdio`, connectant les agents d'intelligence artificielle à l'environnement de développement et au second cerveau.  
-- **11 Outils Typés Zod :** Encapsulation sandboxée d'Obsidian (Journal, Backlog, Notes), inspection et libération sécurisée de ports réseau zombies (Windows taskkill protégé), pont d'audit Git avec Repo-Doctor et gardes-fous anti-fuite PII.
-- **Architecture Résiliente :** Validation d'entrées temps réel, séparation stricte des flux JSON-RPC (`stdout`) et de diagnostic (`stderr`), communication IPC sans latence réseau.
+#### 4. [Noa-Cockpit-MCP](https://github.com/NewGamer62/noa-cockpit-mcp) - Serveur Model Context Protocol Modulaire
+> Serveur d'outillage local implémentant le standard ouvert **Model Context Protocol (MCP)** en transport `stdio`, reliant les agents IA au système et à la base de connaissances Obsidian.  
+- **11 outils typés Zod :** Gestion sandboxée des notes Obsidian, inspection et arrêt sécurisé de processus Windows bloquant des ports, audit Git via Repo-Doctor et filtres anti-fuite de données personnelles.
+- **Architecture :** Validation stricte des entrées, séparation des flux JSON-RPC (`stdout`) et des logs (`stderr`), communication IPC sans latence réseau.
 - `Stack :` `TypeScript` • `Node.js` • `Model Context Protocol (MCP)` • `Zod` • `IPC stdio`
 
-#### 5. [HeatTrainer](https://github.com/NewGamer62/HeatTrainer) — Application Mobile & Heatmap Anatomique
-> Application mobile intelligente de musculation calculant la fatigue musculaire résiduelle sur une fenêtre glissante de 72h.  
+#### 5. [HeatTrainer](https://github.com/NewGamer62/HeatTrainer) - Application Mobile & Heatmap Anatomique
+> Application mobile de musculation calculant la fatigue musculaire résiduelle sur une fenêtre glissante de 72h.  
 - Heatmap anatomique vectorielle face/dos en SVG dynamique (`react-native-svg`).
-- Authentification JWT, base de données cloud PostgreSQL (Neon.tech) et ORM Prisma.
-- Internationalisation complète FR/EN et système d'achievements gamifié.
+- Authentification JWT, base cloud PostgreSQL (Neon.tech) et ORM Prisma.
+- Internationalisation FR/EN et système d'achievements gamifié.
 - `Stack :` `React Native (Expo)` • `TypeScript` • `Node.js` • `Prisma` • `PostgreSQL` • `Jest`
 
-#### 6. [CV-as-Code](https://github.com/NewGamer62/CV-as-Code) — Chaîne CI/CD & Typographie Automatisée
-> Infrastructure de génération automatique de CV optimisés ATS (Applicant Tracking System) bilingues (FR / EN).  
-- Single Source of Truth en YAML compilé via un moteur Python vers **Typst** (rendu typographique vectoriel sub-millimétrique).
-- Pipeline CI/CD GitHub Actions déclenchant la recompilation, les tests de conformité ATS et la publication des artéfacts PDF à chaque commit/tag.
+#### 6. [CV-as-Code](https://github.com/NewGamer62/CV-as-Code) - Chaîne CI/CD & Typographie Automatisée
+> Génération automatique de CV bilingues (FR / EN) calibrés pour les parseurs ATS.  
+- Données sources en YAML compilées via Python vers **Typst** avec rendu vectoriel sub-millimétrique.
+- Pipeline GitHub Actions recompilant et publiant les PDF en Release à chaque tag ou commit.
 - `Stack :` `Typst` • `Python` • `YAML` • `GitHub Actions`
 
 ---
 
-### 📈 Mes Statistiques GitHub
+### Statistiques GitHub
 
 <div align="center">
   <a href="https://github.com/NewGamer62" target="_blank" rel="noopener noreferrer">
     <img src="github-metrics.svg" alt="Métriques GitHub de NewGamer62" />
   </a>
 </div>
-
-
